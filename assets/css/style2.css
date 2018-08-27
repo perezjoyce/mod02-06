@@ -1,3 +1,46 @@
+
+.set {
+	text-decoration-line: underline;
+	font-weight: 900;
+}
+
 .default-width	{
 	background-color: red;
+}
+
+.a-height {
+	background-color: green;
+	height:300px;
+}
+
+.a-width {
+	background-color: yellow;
+	width: 50%;
+}
+
+.adding-padding {
+	/* width: 50%; */
+	margin: 0;
+	box-sizing: border-box;
+	background-color: pink;
+	padding: 100px 20px;
+	border: 1px solid black;
+}
+
+table th {
+	text-align: left;
+}
+
+.adding-margin {
+	/* width: 30%; */
+	padding: 0;
+	box-sizing: border-box;
+	background-color: purple;
+	margin: 50px 30px;
+	border: 5px solid black;
+
+}
+
+textarea {
+	vertical-align: bottom;
 }
